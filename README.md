@@ -1,4 +1,5 @@
 # WEB-INF
+Dados armazenados no localstorage
  Av2-Topicos-Integradores
 
 1) Página inicial, linkando para as duas páginas seguintes
