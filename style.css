@@ -1,0 +1,113 @@
+/* style.css */
+
+/* Reset de margens e preenchimentos padrão */
+body, h1, h2, h6, p, select, label, input, form, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('background_caes_racas.jpg') no-repeat center center fixed; /* Adicione a propriedade background */
+    background-size: cover; /* Configuração da imagem de fundo: cobrindo toda a tela */
+    color: #fff; /* Cor principal do texto */
+}
+
+/* Estilo para os títulos da página */
+h1, h2, h6 {
+    color: #ffd700; /* Cor específica para os títulos */
+    text-shadow: 2px 2px 4px #333; /* Sombra no texto para destaque */
+}
+
+/* Estilo para o logotipo na página */
+.logoname {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; /* Margem superior para separar do topo da página */
+}
+
+/* Estilo para os links de navegação */
+.caes a {
+    text-decoration: none;
+    color: rgba(250, 232, 68, 0.932) dos links */
+    font-weight: bold;
+    font-size: 18px; /* Tamanho de fonte para links */
+}
+
+/* Estilo para os links de navegação ao passar o mouse */
+.caes a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para os formulários de cadastro */
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para os rótulos dos formulários */
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffd700; /* Cor dos rótulos */
+}
+
+/* Estilo para os campos de entrada nos formulários */
+input, select {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px; /* Tamanho de fonte para campos de entrada */
+}
+
+/* Estilo para os botões de submit nos formulários */
+.submit {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px; /* Tamanho de fonte para botões */
+    padding: 12px; /* Espaçamento interno dos botões */
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilo para os botões de submit ao passar o mouse */
+.submit:hover {
+    background-color: #555;
+}
+
+/* Estilo para a lista de itens cadastrados */
+.cadastrados {
+    margin-top: 20px;
+}
+
+/* Estilo para os itens da lista de itens cadastrados */
+.caes {
+    background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo dos itens da lista */
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 16px; /* Tamanho de fonte para itens da lista */
+    color: #1022c5; /* Cor do texto */
+}
+
+/* Estilo para os itens da lista ao passar o mouse */
+.caes:hover {
+    background-color: rgba(78, 175, 14, 0.9)/* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para a mensagem de deleção na lista */
+.del {
+    margin-top: 10px;
+    color: #ff0000; /* Cor vermelha para a mensagem de deleção */
+    font-size: 16px; /* Tamanho de fonte para a mensagem de deleção */
+}
